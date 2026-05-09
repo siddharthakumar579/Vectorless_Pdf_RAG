@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import fs       from "fs";
+import fs from "fs";
 import { extractText } from "unpdf";
 import "dotenv/config";
 
