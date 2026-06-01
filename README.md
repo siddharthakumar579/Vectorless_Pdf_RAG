@@ -1,1 +1,1 @@
-Vectorless RAG
+Vectorless RAG pipeline
