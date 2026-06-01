@@ -13,7 +13,7 @@ async function extractTextFromPDF(pdfPath) {
 
 // ----------------------------------------------------------------
 // STEP 1 — CHUNKING
-// Split raw text into overlapping windows of words.
+// Split raw text into overlapping windows of words. 
 // ----------------------------------------------------------------
 
 function chunkText(rawText, chunkSize = 300, overlap = 50) {
