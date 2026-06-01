@@ -74,7 +74,7 @@ function retrieveTopChunks(query, chunks, topK = 4) {
 // ----------------------------------------------------------------
 // STEP 3 — BUILD PROMPT
 // Pack the retrieved chunks into a prompt.
-// LLM Model only sees these chunks, not the full document. 
+// LLM Model only sees these chunks, not the full document.
 // ----------------------------------------------------------------
 
 function buildPrompt(question, topChunks) {
