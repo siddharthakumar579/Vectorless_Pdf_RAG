@@ -40,7 +40,7 @@ function chunkText(rawText, chunkSize = 300, overlap = 50) {
 
 // ----------------------------------------------------------------
 // STEP 2 — BM25-STYLE KEYWORD RETRIEVAL 
-// For each chunk, count how many times the query's words appear.
+// For each chunk, count how many times the query's words appear. 
 // Higher count = more relevant. No embeddings needed. 
 // ----------------------------------------------------------------
 
